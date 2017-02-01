@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c70d0439922cecf6eb6a169e0128ce47",
-    "content-hash": "668367c17d25d83ee45c5c0de7df332d",
+    "hash": "5aebc918d9efa026af94037cff4b5a20",
+    "content-hash": "dafe44e16fcd2f6aa139dd8844281db1",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -285,16 +285,16 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "2.3.1",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "46ad263b21517a2aafe21d4651e06c553b8309a7"
+                "reference": "c23ebfa81cb8c06dcea63afde98f444e818bceb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/46ad263b21517a2aafe21d4651e06c553b8309a7",
-                "reference": "46ad263b21517a2aafe21d4651e06c553b8309a7",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/c23ebfa81cb8c06dcea63afde98f444e818bceb2",
+                "reference": "c23ebfa81cb8c06dcea63afde98f444e818bceb2",
                 "shasum": ""
             },
             "require": {
@@ -333,7 +333,7 @@
                 }
             ],
             "description": "Initialize Symfony Console commands from annotated command class methods.",
-            "time": "2017-01-21 06:15:21"
+            "time": "2017-01-30 22:46:53"
         },
         {
             "name": "consolidation/output-formatters",
@@ -1285,16 +1285,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.2.5",
+            "version": "8.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "fbf10f63dba6b312e1d1b67bac521db1648384f3"
+                "reference": "6cd5d296125a4584d470d75d8e5218ff17c39c22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/fbf10f63dba6b312e1d1b67bac521db1648384f3",
-                "reference": "fbf10f63dba6b312e1d1b67bac521db1648384f3",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/6cd5d296125a4584d470d75d8e5218ff17c39c22",
+                "reference": "6cd5d296125a4584d470d75d8e5218ff17c39c22",
                 "shasum": ""
             },
             "require": {
@@ -1458,7 +1458,122 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2017-01-04 11:31:35"
+            "time": "2017-02-01 17:03:36"
+        },
+        {
+            "name": "drupal/jsonapi",
+            "version": "1.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/jsonapi",
+                "reference": "8.x-1.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/jsonapi-8.x-1.0-alpha4.zip",
+                "reference": null,
+                "shasum": "138028a1f8ffdfd109fab72f4191cac4d718c1c5"
+            },
+            "require": {
+                "drupal/core": "^8.2"
+            },
+            "require-dev": {
+                "justinrainbow/json-schema": "^4.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha4",
+                    "datestamp": "1485589385"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "e0ipso",
+                    "homepage": "https://www.drupal.org/user/550110"
+                },
+                {
+                    "name": "gabesullice",
+                    "homepage": "https://www.drupal.org/user/2287430"
+                }
+            ],
+            "description": "Provides a JSON API standards-compliant API for accessing and manipulating Drupal content and configuration entities.",
+            "homepage": "https://www.drupal.org/project/jsonapi",
+            "support": {
+                "source": "http://cgit.drupalcode.org/jsonapi"
+            }
+        },
+        {
+            "name": "drupal/restui",
+            "version": "1.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/restui",
+                "reference": "8.x-1.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/restui-8.x-1.13.zip",
+                "reference": null,
+                "shasum": "808fc735bd9f80069fe1353b7b0f8390d294ff28"
+            },
+            "require": {
+                "drupal/core": "^8.2.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.13",
+                    "datestamp": "1478790974"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Juampy NR",
+                    "homepage": "https://www.drupal.org/u/juampynr"
+                },
+                {
+                    "name": "Clemens Tolboom",
+                    "homepage": "https://www.drupal.org/u/clemens.tolboom"
+                },
+                {
+                    "name": "Eduardo García",
+                    "homepage": "https://www.drupal.org/u/enzo"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/1938140/committers"
+                }
+            ],
+            "description": "Provides a user interface to manage REST resources",
+            "homepage": "https://www.drupal.org/project/restui",
+            "keywords": [
+                "rest",
+                "restdata",
+                "webservice"
+            ],
+            "support": {
+                "source": "https://cgit.drupalcode.org/restui",
+                "issues": "https://www.drupal.org/project/issues/restui"
+            }
         },
         {
             "name": "drush/drush",
@@ -5267,16 +5382,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.32",
+            "version": "4.8.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "f5e1941a8dacf0d904753ff2895c6f68e54bcee1"
+                "reference": "7eb45205d27edd94bd2b3614085ea158bd1e2bca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f5e1941a8dacf0d904753ff2895c6f68e54bcee1",
-                "reference": "f5e1941a8dacf0d904753ff2895c6f68e54bcee1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/7eb45205d27edd94bd2b3614085ea158bd1e2bca",
+                "reference": "7eb45205d27edd94bd2b3614085ea158bd1e2bca",
                 "shasum": ""
             },
             "require": {
@@ -5335,7 +5450,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-01-22 08:37:05"
+            "time": "2017-01-26 16:15:36"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -5395,16 +5510,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "1.2.2",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f"
+                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
-                "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
                 "shasum": ""
             },
             "require": {
@@ -5455,7 +5570,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2016-11-19 09:18:40"
+            "time": "2017-01-29 09:50:25"
         },
         {
             "name": "sebastian/diff",
